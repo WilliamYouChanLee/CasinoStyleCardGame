@@ -58,6 +58,30 @@ public class GameEngineCallbackImpl implements GameEngineCallback
       // TODO: complete this method to log results
    }
 
+@Override
+public void bustCard(Player player, PlayingCard card, GameEngine engine) {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public void nextHouseCard(PlayingCard card, GameEngine engine) {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public void houseBustCard(PlayingCard card, GameEngine engine) {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public void houseResult(int result, GameEngine engine) {
+	// TODO Auto-generated method stub
+	
+}
+
    // TODO complete the rest of this interface
 
 }
