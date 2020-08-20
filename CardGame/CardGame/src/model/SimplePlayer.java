@@ -4,11 +4,11 @@ import model.interfaces.Player;
 
 public class SimplePlayer implements Player{
 	
-	public String name;
-	public String id;
-	public int point;
-	public int bet;
-	public int result;
+	private String name;
+	private String id;
+	private int point;
+	private int bet;
+	private int result;
 	
 	public SimplePlayer(String id, String name, int initialPoints) {
 		this.id = id;

@@ -6,9 +6,9 @@ import model.interfaces.PlayingCard.Value;
 
 public class PlayingCardImpl implements PlayingCard{
 
-	 Suit CardSuit;
-	 Value CardValue;
-	 int score;
+	private Suit CardSuit;
+	private Value CardValue;
+	private int score;
 
 	public PlayingCardImpl(String suit, String value) {
 		//constructor should create array/array list or some sort of object that depicts 28 card shuffled
